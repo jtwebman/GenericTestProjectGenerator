@@ -4,6 +4,7 @@ GenericTestProjectGenerator
 Will take a CSV file with test name, and command to run, and generate a generic c# test project calling the command.
 
 Command line options:
+
 Option | Description
 -------|------------
 -c, --csv | Required. Two columned csv file, example: TestName,TextBatchfile.bat
@@ -14,7 +15,8 @@ Option | Description
 --help | Display this help screen.
 
 The CSV is a very basic format with the headers:
-Test Name | Command To Run |
-----------|----------------|
-Test1 | Test1.bat |
-Test2 | Test2.bat |
+
+|Test Name | Command To Run |
+|----------|----------------|
+|Test1 | Test1.bat |
+|Test2 | Test2.bat |
